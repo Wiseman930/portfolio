@@ -212,7 +212,6 @@ nav ul li {
 .contact {
   margin-top: 2rem;
 }
-
 .contact h2 {
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
@@ -267,16 +266,20 @@ nav ul li {
   cursor: pointer;
 }
 .socials {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
   right: 1%;
   bottom: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .socicon {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
 }
 footer {
   background-color: var(--bg-color);
@@ -380,4 +383,4 @@ footer {
   .contact-form-container {
     max-width: 17.75rem;
   }
-} 
+}
