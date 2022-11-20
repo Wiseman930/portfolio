@@ -98,8 +98,8 @@ nav ul li {
   margin: auto;
 }
 .hero img {
-  height: 30.5rem;
-  width: 30.5rem;
+  height: 28rem;
+  width: 28rem;
   margin-top: 30px;
   background-color: #fff;
   border-radius: 11px;
@@ -331,8 +331,9 @@ footer {
   }
 
   .hero img {
-        height: 37.5rem;
-        width: 30rem;
+        height: 25rem;
+        width: 25rem;
+        margin-bottom: 130px;
     }
 
   .bio {
@@ -368,7 +369,7 @@ footer {
 }
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
+    height: 23rem;
     width: 23rem;
   }
 
